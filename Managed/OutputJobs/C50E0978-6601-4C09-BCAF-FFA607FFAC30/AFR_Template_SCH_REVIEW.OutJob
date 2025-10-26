@@ -1,0 +1,109 @@
+[OutputJobFile]
+Version=1.0
+Caption=
+Description=
+VaultGUID=DB1D5995-1535-4EFE-AA6E-9116B9382424
+ItemGUID=B95F0A92-906D-4368-A3AF-0079B5B546E6
+ItemHRID=
+RevisionGUID=C50E0978-6601-4C09-BCAF-FFA607FFAC30
+RevisionId=
+VaultHRID=
+AutoItemHRID=
+NextRevId=
+FolderGUID=
+LifeCycleDefinitionGUID=
+RevisionNamingSchemeGUID=
+
+[OutputGroup1]
+Name=Job Group
+Description=
+TargetOutputMedium=Copy Source Files
+VariantName=LHM_isoSPI
+VariantScope=1
+CurrentConfigurationName=
+TargetPrinter=\\audiinsa4751.in.audi.vwg\Print2Me-2_IN
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputMedium1=Schematic PDF
+OutputMedium1_Type=Publish
+OutputMedium2=Copy Source Files
+OutputMedium2_Type=GeneratedFiles
+OutputType1=Copy Files
+OutputName1=Copy Files
+OutputCategory1=PostProcess
+OutputDocumentPath1=
+OutputVariantName1=
+OutputEnabled1=1
+OutputEnabled1_OutputMedium1=0
+OutputEnabled1_OutputMedium2=1
+OutputDefault1=0
+Configuration1_Name1=OutputConfigurationParameter1
+Configuration1_Item1=Count=1|File0=[Project Dir]\*.*|PreserveFolderStructure0=True|Record=NonNativeFiles|DocumentPath=[Project]
+OutputType2=Schematic Print
+OutputName2=Schematic Prints
+OutputCategory2=Documentation
+OutputDocumentPath2=[Project Physical Documents]
+OutputVariantName2=
+OutputEnabled2=0
+OutputEnabled2_OutputMedium1=1
+OutputEnabled2_OutputMedium2=0
+OutputDefault2=0
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration2_Name1=OutputConfigurationParameter1
+Configuration2_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=True|ExpandPort=True|ExpandSheetNum=True|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0|DocumentPath=[Project Physical Documents]
+
+[PublishSettings]
+OutputFilePath1=W:\GateDriver\01_MK1\PCB\GateDriver_Main\Project Outputs for SP26_CU-K_MK1_GateDriver\SP26_CU-K_MK1_GateDriver_SCH_Review_2023-05-05\SCH_SP26_CU-K_MK1_GateDriver.PDF
+ReleaseManaged1=1
+OutputBasePath1=Project Outputs for Free Documents
+OutputPathMedia1==PN_PCBA+(_)+ItemRevisionLevel1+ItemRevisionBase+(_SCHR_)+CurrentDate
+OutputPathMediaValue1==PN_PCBA+(_)+ItemRevisionLevel1+ItemRevisionBase+(_SCHR_)+CurrentDate
+OutputPathOutputer1=
+OutputPathOutputerPrefix1=
+OutputPathOutputerValue1=
+OutputFileName1=SP26_MK1_GateDriver_SCH_REVIEW.PDF
+OutputFileNameMulti1=
+UseOutputNameForMulti1=0
+OutputFileNameSpecial1==PN_PCBA+(_SCH)
+OpenOutput1=1
+PromptOverwrite1=1
+PublishMethod1=0
+ZoomLevel1=50
+FitSCHPrintSizeToDoc1=1
+FitPCBPrintSizeToDoc1=1
+GenerateNetsInfo1=1
+MarkPins1=1
+MarkNetLabels1=1
+MarkPortsId1=1
+GenerateTOC1=1
+ShowComponentParameters1=1
+GlobalBookmarks1=1
+PDFACompliance1=Disabled
+PDFVersion1=Default
+OutputFilePath2=Project Outputs for Free Documents\PN_PCBA__SCHR_2023-05-11\
+ReleaseManaged2=1
+OutputBasePath2=Project Outputs for Free Documents
+OutputPathMedia2==PN_PCBA+(_)+ItemRevisionLevel1+ItemRevisionBase+(_SCHR_)+CurrentDate
+OutputPathMediaValue2==PN_PCBA+(_)+ItemRevisionLevel1+ItemRevisionBase+(_SCHR_)+CurrentDate
+OutputPathOutputer2=[Output Custom]
+OutputPathOutputerPrefix2=
+OutputPathOutputerValue2=Source Files
+OutputFileName2=
+OutputFileNameMulti2=
+UseOutputNameForMulti2=1
+OutputFileNameSpecial2=
+OpenOutput2=0
+
+[GeneratedFilesSettings]
+RelativeOutputPath1=W:\GateDriver\01_MK1\PCB\GateDriver_Main\Project Outputs for SP26_CU-K_MK1_GateDriver\SP26_CU-K_MK1_GateDriver_SCH_Review_2023-05-05\SCH_SP26_CU-K_MK1_GateDriver.PDF
+OpenOutputs1=1
+RelativeOutputPath2=Project Outputs for Free Documents\PN_PCBA__SCHR_2023-05-11\
+OpenOutputs2=0
+AddToProject2=0
+TimestampFolder2=0
+UseOutputName2=0
+OpenODBOutput2=0
+OpenGerberOutput2=0
+OpenNCDrillOutput2=0
+OpenIPCOutput2=0
+EnableReload2=0
+

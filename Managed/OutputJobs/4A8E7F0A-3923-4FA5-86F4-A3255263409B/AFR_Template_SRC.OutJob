@@ -1,0 +1,163 @@
+[OutputJobFile]
+Version=1.0
+Caption=
+Description=
+VaultGUID=DB1D5995-1535-4EFE-AA6E-9116B9382424
+ItemGUID=4B5829DA-6E06-4634-AEF2-573EB37698A4
+ItemHRID=
+RevisionGUID=4A8E7F0A-3923-4FA5-86F4-A3255263409B
+RevisionId=
+VaultHRID=
+AutoItemHRID=
+NextRevId=
+FolderGUID=
+LifeCycleDefinitionGUID=
+RevisionNamingSchemeGUID=
+
+[OutputGroup1]
+Name=Job Group
+Description=
+TargetOutputMedium=Source Files
+VariantName=[No Variations]
+VariantScope=1
+CurrentConfigurationName=Sources
+TargetPrinter=\\audiinsa4751.in.audi.vwg\Print2Me-2_IN
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=0
+OutputMedium1=Print Job
+OutputMedium1_Type=Printer
+OutputMedium1_Printer=Adobe PDF
+OutputMedium1_PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputMedium2=BoM
+OutputMedium2_Type=GeneratedFiles
+OutputMedium3=STEP
+OutputMedium3_Type=GeneratedFiles
+OutputMedium4=Source Files
+OutputMedium4_Type=GeneratedFiles
+OutputType1=ExportSTEP
+OutputName1=Export STEP
+OutputCategory1=Export
+OutputDocumentPath1=
+OutputVariantName1=
+OutputEnabled1=0
+OutputEnabled1_OutputMedium1=0
+OutputEnabled1_OutputMedium2=0
+OutputEnabled1_OutputMedium3=1
+OutputEnabled1_OutputMedium4=0
+OutputDefault1=0
+Configuration1_Name1=OutputConfigurationParameter1
+Configuration1_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=True|IncludeElectricalPadHoles=True|IncludeFreePadHoles=True|ExportFoldedBoard=True|ExportFoldedBoardRate=0|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=0|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=True|IncludeCoverLayer=True|SkipFreeBodies=False|SkipHidden=False|DocumentPath=W:\GateDriver\01_MK1\PCB\GateDriver_Main\SP26_MK1_GateDriver_LHM.PcbDoc
+OutputType2=Copy Files
+OutputName2=Copy Files
+OutputCategory2=PostProcess
+OutputDocumentPath2=
+OutputVariantName2=
+OutputEnabled2=1
+OutputEnabled2_OutputMedium1=0
+OutputEnabled2_OutputMedium2=0
+OutputEnabled2_OutputMedium3=0
+OutputEnabled2_OutputMedium4=1
+OutputDefault2=0
+Configuration2_Name1=OutputConfigurationParameter1
+Configuration2_Item1=Count=1|File0=[Project]\*.*|Record=NonNativeFiles|DocumentPath=[Project]
+OutputType3=BOM_PartType
+OutputName3=Bill of Materials
+OutputCategory3=Report
+OutputDocumentPath3=[ActiveBOM Document]
+OutputVariantName3=
+OutputEnabled3=0
+OutputEnabled3_OutputMedium1=0
+OutputEnabled3_OutputMedium2=1
+OutputEnabled3_OutputMedium3=0
+OutputEnabled3_OutputMedium4=0
+OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration3_Name1=ColumnNameFormat
+Configuration3_Item1=CaptionAsName
+Configuration3_Name2=General
+Configuration3_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=True|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1555|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=EUR|SolutionsPerItem=2|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration3_Name3=GroupOrder
+Configuration3_Item3=
+Configuration3_Name4=SortOrder
+Configuration3_Item4=Designator=Up
+Configuration3_Name5=VisibleOrder
+Configuration3_Item5=Line #=54|Comment=135|Description=125|Designator=217|Quantity=67|Value=67|Footprint=158|Manufacturer 1=102|Manufacturer Part Number 1=169|Manufacturer Lifecycle 1=147|Supplier 1=95|Supplier Part Number 1=142|Supplier Unit Price 1=135|Supplier Subtotal 1=134
+Configuration3_Name6=VisibleOrder_Base
+Configuration3_Item6=Line #=54|Comment=135|Description=125|Designator=217|Quantity=67|Value=67|Footprint=158|Manufacturer 1=102|Manufacturer Part Number 1=169|Manufacturer Lifecycle 1=147|Supplier 1=95|Supplier Part Number 1=142|Supplier Unit Price 1=135|Supplier Subtotal 1=134
+Configuration3_Name7=VisibleOrder_Consolidated
+Configuration3_Item7=Line #=100|Comment=100|Description=100|Designator=100|Quantity=100|Quantity@LHM_isoSPI=100|Price@LHM_isoSPI=100|Quantity@LHM_SPI=100|Price@LHM_SPI=100|Manufacturer 1=100|Manufacturer Part Number 1=100|Manufacturer Lifecycle 1=100|Supplier 1=100|Supplier Part Number 1=100|Supplier Unit Price 1=100|Supplier Subtotal 1=100|Manufacturer 2=100|Manufacturer Part Number 2=100|Manufacturer Lifecycle 2=100|Supplier 2=100|Supplier Part Number 2=100|Supplier Unit Price 2=100|Supplier Subtotal 2=100
+Configuration3_Name8=VisibleOrder_Flat
+Configuration3_Item8=Line #=100|Comment=100|Description=100|Designator=100|Manufacturer 1=100|Manufacturer Part Number 1=100|Manufacturer Lifecycle 1=100|Supplier 1=100|Supplier Part Number 1=100|Supplier Unit Price 1=100|Supplier Subtotal 1=100|Manufacturer 2=100|Manufacturer Part Number 2=100|Manufacturer Lifecycle 2=100|Supplier 2=100|Supplier Part Number 2=100|Supplier Unit Price 2=100|Supplier Subtotal 2=100
+
+[PublishSettings]
+OutputFilePath2=Project Outputs for Free Documents\PN_PCBA__SRC_2023-05-11\
+ReleaseManaged2=1
+OutputBasePath2=Project Outputs for Free Documents
+OutputPathMedia2==PN_PCBA+(_)+ItemRevisionLevel1+ItemRevisionBase+(_SRC_)+CurrentDate
+OutputPathMediaValue2==PN_PCBA+(_)+ItemRevisionLevel1+ItemRevisionBase+(_SRC_)+CurrentDate
+OutputPathOutputer2=
+OutputPathOutputerPrefix2=SRC
+OutputPathOutputerValue2=
+OutputFileName2=
+OutputFileNameMulti2==PN_PCBA+(_BoM_Internal)
+UseOutputNameForMulti2=0
+OutputFileNameSpecial2=
+OpenOutput2=0
+OutputFilePath3=Project Outputs for Free Documents\PN_PCBA__SRC_2023-05-11\
+ReleaseManaged3=1
+OutputBasePath3=Project Outputs for Free Documents
+OutputPathMedia3==PN_PCBA+(_)+ItemRevisionLevel1+ItemRevisionBase+(_SRC_)+CurrentDate
+OutputPathMediaValue3==PN_PCBA+(_)+ItemRevisionLevel1+ItemRevisionBase+(_SRC_)+CurrentDate
+OutputPathOutputer3=[Output Custom]
+OutputPathOutputerPrefix3=SRC
+OutputPathOutputerValue3=STEP
+OutputFileName3=
+OutputFileNameMulti3==PN_PCBA+(_)+ItemRevisionLevel1+ItemRevisionBase+(_)+CurrentDate
+UseOutputNameForMulti3=0
+OutputFileNameSpecial3=
+OpenOutput3=0
+OutputFilePath4=Project Outputs for Free Documents\PN_PCBA__SRC_2023-05-11\
+ReleaseManaged4=1
+OutputBasePath4=Project Outputs for Free Documents
+OutputPathMedia4==PN_PCBA+(_)+ItemRevisionLevel1+ItemRevisionBase+(_SRC_)+CurrentDate
+OutputPathMediaValue4==PN_PCBA+(_)+ItemRevisionLevel1+ItemRevisionBase+(_SRC_)+CurrentDate
+OutputPathOutputer4=[Output Custom]
+OutputPathOutputerPrefix4=SRC
+OutputPathOutputerValue4=Source Files
+OutputFileName4=
+OutputFileNameMulti4==PN_PCBA+(_)+
+UseOutputNameForMulti4=1
+OutputFileNameSpecial4=
+OpenOutput4=0
+
+[GeneratedFilesSettings]
+RelativeOutputPath2=Project Outputs for Free Documents\PN_PCBA__SRC_2023-05-11\
+OpenOutputs2=0
+AddToProject2=0
+TimestampFolder2=0
+UseOutputName2=0
+OpenODBOutput2=0
+OpenGerberOutput2=0
+OpenNCDrillOutput2=0
+OpenIPCOutput2=0
+EnableReload2=0
+RelativeOutputPath3=Project Outputs for Free Documents\PN_PCBA__SRC_2023-05-11\
+OpenOutputs3=0
+AddToProject3=0
+TimestampFolder3=0
+UseOutputName3=0
+OpenODBOutput3=0
+OpenGerberOutput3=0
+OpenNCDrillOutput3=0
+OpenIPCOutput3=0
+EnableReload3=0
+RelativeOutputPath4=Project Outputs for Free Documents\PN_PCBA__SRC_2023-05-11\
+OpenOutputs4=0
+AddToProject4=0
+TimestampFolder4=0
+UseOutputName4=0
+OpenODBOutput4=0
+OpenGerberOutput4=0
+OpenNCDrillOutput4=0
+OpenIPCOutput4=0
+EnableReload4=0
+
