@@ -544,6 +544,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document29]
+DocumentPath=Turbospeed.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=AOEYIQHI
+
 [SearchPath1]
 Path=..\..\AltiumLibs\*.*
 IncludeSubFolders=1
@@ -573,7 +590,7 @@ Cached_LifeCycleStateHRID1=Draft
 Cached_LifeCycleStateGUID1=[Unknown]
 Cached_LifeCycleStateColor1=00F0F0F0
 Cached_LifeCycleStateTextColor1=00606060
-Cached_RevisionReleaseDate1=11.05.2023 17:14:51
+Cached_RevisionReleaseDate1=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
@@ -598,7 +615,7 @@ Cached_LifeCycleStateHRID1=Draft
 Cached_LifeCycleStateGUID1=[Unknown]
 Cached_LifeCycleStateColor1=00F0F0F0
 Cached_LifeCycleStateTextColor1=00606060
-Cached_RevisionReleaseDate1=01.07.2025 10:57:21
+Cached_RevisionReleaseDate1=0
 ContentTypeGUID=0C520D2A-E60C-11DF-B822-12313F0024A2
 ConfigurationType=Fabrication
 
@@ -623,7 +640,7 @@ Cached_LifeCycleStateHRID1=Draft
 Cached_LifeCycleStateGUID1=[Unknown]
 Cached_LifeCycleStateColor1=00F0F0F0
 Cached_LifeCycleStateTextColor1=00606060
-Cached_RevisionReleaseDate1=23.01.2024 13:54:13
+Cached_RevisionReleaseDate1=0
 ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
 ConfigurationType=Assembly
 
@@ -648,7 +665,7 @@ Cached_LifeCycleStateHRID1=Draft
 Cached_LifeCycleStateGUID1=[Unknown]
 Cached_LifeCycleStateColor1=00F0F0F0
 Cached_LifeCycleStateTextColor1=00606060
-Cached_RevisionReleaseDate1=23.01.2024 13:54:13
+Cached_RevisionReleaseDate1=0
 ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
 ConfigurationType=Assembly
 
@@ -673,7 +690,7 @@ Cached_LifeCycleStateHRID1=Draft
 Cached_LifeCycleStateGUID1=[Unknown]
 Cached_LifeCycleStateColor1=00F0F0F0
 Cached_LifeCycleStateTextColor1=00606060
-Cached_RevisionReleaseDate1=23.01.2024 13:54:13
+Cached_RevisionReleaseDate1=0
 ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
 ConfigurationType=Assembly
 
@@ -698,7 +715,7 @@ Cached_LifeCycleStateHRID1=Draft
 Cached_LifeCycleStateGUID1=[Unknown]
 Cached_LifeCycleStateColor1=00F0F0F0
 Cached_LifeCycleStateTextColor1=00606060
-Cached_RevisionReleaseDate1=11.05.2023 17:13:58
+Cached_RevisionReleaseDate1=0
 ContentTypeGUID=B953ABBB-897D-493B-96D2-85DABE1896C4
 ConfigurationType=Custom
 
@@ -723,7 +740,7 @@ Cached_LifeCycleStateHRID1=Draft
 Cached_LifeCycleStateGUID1=[Unknown]
 Cached_LifeCycleStateColor1=00F0F0F0
 Cached_LifeCycleStateTextColor1=00606060
-Cached_RevisionReleaseDate1=23.01.2024 13:53:40
+Cached_RevisionReleaseDate1=0
 ContentTypeGUID=B953ABBB-897D-493B-96D2-85DABE1896C4
 ConfigurationType=Custom
 
@@ -748,7 +765,7 @@ Cached_LifeCycleStateHRID1=Draft
 Cached_LifeCycleStateGUID1=[Unknown]
 Cached_LifeCycleStateColor1=00F0F0F0
 Cached_LifeCycleStateTextColor1=00606060
-Cached_RevisionReleaseDate1=11.05.2023 17:08:14
+Cached_RevisionReleaseDate1=0
 ContentTypeGUID=B953ABBB-897D-493B-96D2-85DABE1896C4
 ConfigurationType=Custom
 
@@ -1630,6 +1647,16 @@ Type158=1
 Type159=1
 Type160=1
 Type161=1
+Type162=1
+Type163=1
+Type164=1
+Type165=1
+Type166=1
+Type167=1
+Type168=1
+Type169=1
+Type170=1
+Type171=1
 
 [Difference Levels]
 Type1=1
@@ -1720,6 +1747,13 @@ Type85=1
 Type86=1
 Type87=1
 Type88=1
+Type89=1
+Type90=1
+Type91=1
+Type92=1
+Type93=1
+Type94=1
+Type95=1
 
 [Electrical Rules Check]
 Type1=1
@@ -2588,7 +2622,7 @@ Cached_LifeCycleStateHRID=Draft
 Cached_LifeCycleStateGUID=[Unknown]
 Cached_LifeCycleStateColor=00F0F0F0
 Cached_LifeCycleStateTextColor=00606060
-Cached_RevisionReleaseDate=05.02.2024 21:03:38
+Cached_RevisionReleaseDate=0
 
 [ManagedOutputJobs2]
 VaultGUID=DB1D5995-1535-4EFE-AA6E-9116B9382424
@@ -2603,7 +2637,7 @@ Cached_LifeCycleStateHRID=Draft
 Cached_LifeCycleStateGUID=[Unknown]
 Cached_LifeCycleStateColor=00F0F0F0
 Cached_LifeCycleStateTextColor=00606060
-Cached_RevisionReleaseDate=26.05.2025 13:31:03
+Cached_RevisionReleaseDate=0
 
 [ManagedOutputJobs3]
 VaultGUID=DB1D5995-1535-4EFE-AA6E-9116B9382424
@@ -2618,7 +2652,7 @@ Cached_LifeCycleStateHRID=Draft
 Cached_LifeCycleStateGUID=[Unknown]
 Cached_LifeCycleStateColor=00F0F0F0
 Cached_LifeCycleStateTextColor=00606060
-Cached_RevisionReleaseDate=01.07.2025 10:57:21
+Cached_RevisionReleaseDate=0
 
 [ManagedOutputJobs4]
 VaultGUID=DB1D5995-1535-4EFE-AA6E-9116B9382424
@@ -2633,7 +2667,7 @@ Cached_LifeCycleStateHRID=Draft
 Cached_LifeCycleStateGUID=[Unknown]
 Cached_LifeCycleStateColor=00F0F0F0
 Cached_LifeCycleStateTextColor=00606060
-Cached_RevisionReleaseDate=23.01.2024 13:53:40
+Cached_RevisionReleaseDate=0
 
 [ManagedOutputJobs5]
 VaultGUID=DB1D5995-1535-4EFE-AA6E-9116B9382424
@@ -2648,7 +2682,7 @@ Cached_LifeCycleStateHRID=Draft
 Cached_LifeCycleStateGUID=[Unknown]
 Cached_LifeCycleStateColor=00F0F0F0
 Cached_LifeCycleStateTextColor=00606060
-Cached_RevisionReleaseDate=11.05.2023 17:14:51
+Cached_RevisionReleaseDate=0
 
 [ManagedOutputJobs6]
 VaultGUID=DB1D5995-1535-4EFE-AA6E-9116B9382424
@@ -2663,7 +2697,7 @@ Cached_LifeCycleStateHRID=Draft
 Cached_LifeCycleStateGUID=[Unknown]
 Cached_LifeCycleStateColor=00F0F0F0
 Cached_LifeCycleStateTextColor=00606060
-Cached_RevisionReleaseDate=05.02.2024 21:55:15
+Cached_RevisionReleaseDate=0
 
 [ManagedOutputJobs7]
 VaultGUID=DB1D5995-1535-4EFE-AA6E-9116B9382424
@@ -2678,7 +2712,7 @@ Cached_LifeCycleStateHRID=Draft
 Cached_LifeCycleStateGUID=[Unknown]
 Cached_LifeCycleStateColor=00F0F0F0
 Cached_LifeCycleStateTextColor=00606060
-Cached_RevisionReleaseDate=01.07.2025 10:57:53
+Cached_RevisionReleaseDate=0
 
 [ManagedOutputJobs8]
 VaultGUID=DB1D5995-1535-4EFE-AA6E-9116B9382424
@@ -2693,7 +2727,7 @@ Cached_LifeCycleStateHRID=Draft
 Cached_LifeCycleStateGUID=[Unknown]
 Cached_LifeCycleStateColor=00F0F0F0
 Cached_LifeCycleStateTextColor=00606060
-Cached_RevisionReleaseDate=11.05.2023 17:13:58
+Cached_RevisionReleaseDate=0
 
 [ManagedOutputJobs9]
 VaultGUID=DB1D5995-1535-4EFE-AA6E-9116B9382424
@@ -2708,7 +2742,7 @@ Cached_LifeCycleStateHRID=Draft
 Cached_LifeCycleStateGUID=[Unknown]
 Cached_LifeCycleStateColor=00F0F0F0
 Cached_LifeCycleStateTextColor=00606060
-Cached_RevisionReleaseDate=23.01.2024 13:54:13
+Cached_RevisionReleaseDate=0
 
 [ManagedOutputJobs10]
 VaultGUID=DB1D5995-1535-4EFE-AA6E-9116B9382424
@@ -2723,7 +2757,7 @@ Cached_LifeCycleStateHRID=Draft
 Cached_LifeCycleStateGUID=[Unknown]
 Cached_LifeCycleStateColor=00F0F0F0
 Cached_LifeCycleStateTextColor=00606060
-Cached_RevisionReleaseDate=11.05.2023 17:08:14
+Cached_RevisionReleaseDate=0
 
 [ManagedOutputJobs11]
 VaultGUID=DB1D5995-1535-4EFE-AA6E-9116B9382424
@@ -2738,5 +2772,5 @@ Cached_LifeCycleStateHRID=Draft
 Cached_LifeCycleStateGUID=[Unknown]
 Cached_LifeCycleStateColor=00F0F0F0
 Cached_LifeCycleStateTextColor=00606060
-Cached_RevisionReleaseDate=11.07.2025 10:43:49
+Cached_RevisionReleaseDate=0
 
