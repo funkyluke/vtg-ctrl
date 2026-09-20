@@ -26,3 +26,12 @@ Project Outputs*/
 
 # Folder to save each comparison results
 CompareHistory/
+
+### LTspice ###
+# Generated simulation outputs from .asc sources — scratch, not tracked
+*.raw
+*.log
+*.op.raw
+# Throwaway prototype netlists (keep the real .asc)
+*_reordered.net
+*_reordered.*

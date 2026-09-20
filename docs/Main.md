@@ -31,7 +31,12 @@ Individual decisions get their own pages under `decisions/`. Convention: one fil
 per decision, named `decisions/DDD-NNN-page.md`, linked from the relevant subsystem
 page and from below.
 
-- *(empty — add the first entry here)*
+- [DDD-001 — ADC LPF: values + RC-before-active topology](decisions/DDD-001-adc-lpf.md) — Decided
+
+## Coordination
+
+- For agents/sessions working on this repo: read [AGENTS.md](../AGENTS.md) first
+  (coordination contract, binary-file ownership, decision log, handoff ritual).
 
 ## Getting Started / Conventions
 
