@@ -34,6 +34,25 @@ Distinct passive values: **47k, 10k, 10n, 22n** (4 lines). `C2` and `C3` share 2
 **Measured response (AC sim):** DC ≈ 0 dB, **−3 dB @ ~202 Hz**, −20 dB @ ~590 Hz,
 −16.8 dB @ 500 Hz, rolloff ≈ **−45 dB/dec** (≈3rd order) above the corner.
 
+### Opening the doc — effective input impedance (measured)
+Seen from the source (`V(vin)/I(R3)`, AC sim with flat 1.0 V source):
+
+| Freq | \|Zin\| | Phase |
+|---|---|---|
+| 10 Hz | ~363 kΩ | ≈ −93° (≈ capacitive) |
+| 100 Hz | ~45 kΩ | ≈ −117° |
+| 200 Hz | ~30 kΩ | ≈ −128° |
+| 1 kHz | ~13 kΩ | ≈ −148° |
+| 2.8 kHz | ~10.5 kΩ | ≈ −166° |
+
+**Behavior:** DC/low-freq the source sees the series ladder `R3+R1+R2 ≈ 104 kΩ`,
+but `C1`/`C3` dominate below ~300 Hz → tens-to-hundreds of kΩ, mostly capacitive.
+Above a few kHz the caps shunt away and it settles on **`R3 = 10 kΩ`** as the floor.
+
+**Net effect:** a light, high-Ω load — insensitive to measurement point in-band
+(the point of the RC-first reorder). Quote it as **≈10 kΩ resistive minimum,
+tens of kΩ in the passband, not purely resistive below a few hundred Hz**.
+
 ### Topology & why the RC is first (Key Decision)
 Signal path: **source → `R3`/`C3` (RC) → `R1`/`R2`+`C1`/`C2` (Sallen-Key) → AD8552 follower → `vout` (ADC).**
 
