@@ -24,6 +24,7 @@ Landing page for design decisions and documentation for the **VTG-Ctrl** board
 | [Analog Input / ADC](Analog-ADC.md) | `ADC.SchDoc`, `LPF.SchDoc` | Stub |
 | [Thermocouple Interface](Thermocouple.md) | `Max31856.SchDoc` | Stub |
 | [DTM13](DTM13.md) | `DTM13.SchDoc` | Stub |
+| [Turbo Speed](Turbospeed.md) | `Turbospeed.SchDoc` | Draft |
 
 ## Design Decisions Log
 
