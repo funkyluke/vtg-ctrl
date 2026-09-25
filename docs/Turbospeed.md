@@ -34,11 +34,14 @@ Compressor wheel has **6 blades**.
 | Max supply current | **10 mA** |
 | Signal | 5 V logic square/pulse, 1/8 blade freq |
 
-## Conditioning requirements (open)
+## Conditioning requirements (decided)
 
-- Level / conditioning of the 5 V pulse into the ~3.3 V MCU input domain.
-- *(TODO: decide buffer vs. passive divider vs. direct; Schmitt trigger for edge
-  conditioning; ESD/EMI protection at the connector.)*
+- Level-shift the 5 V pulse to the ~3.3 V MCU domain via a **SN74LVC1G17** Schmitt
+  buffer (VCC = 3.3 V), with a **PESD5V0S2BT** connector TVS (SOT-23, ±30 kV IEC-4-2,
+  AEC-Q101), a **10 kΩ** series limiter, **BAT54S** dual clamp (→ 3V3 and → GND),
+  and **470 pF** RC to GND (~34 kHz corner).
+- The PESD5V0S2BT is the standard ESD/TVS for **all 5 V I/Os** on this design.
+- Full rationale and values: [DDD-002 — Turbo-speed input conditioning](decisions/DDD-002-turbospeed-input.md)
 
 ## Files
 

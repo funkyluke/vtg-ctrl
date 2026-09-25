@@ -33,6 +33,7 @@ per decision, named `decisions/DDD-NNN-page.md`, linked from the relevant subsys
 page and from below.
 
 - [DDD-001 — ADC LPF: values + RC-before-active topology](decisions/DDD-001-adc-lpf.md) — Decided
+- [DDD-002 — Turbo-speed input conditioning](decisions/DDD-002-turbospeed-input.md) — Decided
 
 ## Coordination
 
