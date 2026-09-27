@@ -34,6 +34,7 @@ page and from below.
 
 - [DDD-001 — ADC LPF: values + RC-before-active topology](decisions/DDD-001-adc-lpf.md) — Decided
 - [DDD-002 — Turbo-speed input conditioning](decisions/DDD-002-turbospeed-input.md) — Decided
+- [DDD-003 — DRV8874 VTG-actuator drive: endstop/stall detection via IPROPI](decisions/DDD-003-drv8874-vtg-actuator.md) — Decided
 
 ## Coordination
 
