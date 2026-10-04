@@ -1,7 +1,14 @@
 # DDD-003 — DRV8874 VTG-actuator drive: endstop/stall detection via IPROPI
 
 - Date / authoring session: 2026-09-21
-- Status: Decided
+- Status: **Superseded** by [DDD-004](DDD-004-drv8874-dac-vref-current-limit.md) (2026-10-04)
+
+> **Superseded.** The current-limit concept below (fixed ITRIP ≈ 2.8 A below stall,
+> RIPROPI 1.5 kΩ, VREF divider, IMODE cycle-by-cycle) is replaced by DDD-004: VREF from an
+> MCP4725 DAC, RIPROPI 1.2 kΩ, IMODE = GND (fixed off-time), firmware-scheduled ITRIP above
+> stall for breakaway. Known errors here: the load-dump figures conflate ISO 16750-2
+> Test A/B, and a 16 V-standoff output TVS is not the load-dump protection (that is on VM).
+> Kept for history only.
 
 ## Change
 

@@ -20,7 +20,7 @@ Landing page for design decisions and documentation for the **VTG-Ctrl** board
 | [MCU](MCU.md) | `MCU.SchDoc` | Stub |
 | [Power & Protection](Power-Protection.md) | `Input Protection.SchDoc`, `PSU_5V.SchDoc`, `EFuse_5V.SchDoc`, `EFuse_12V.SchDoc` | Stub |
 | [High-Side Switch](HSS.md) | `HSS.SchDoc` | Stub |
-| [Motor Driver](Motor-Driver.md) | `DRV8874.SchDoc` | Stub |
+| [Motor Driver](Motor-Driver.md) | `DRV8874.SchDoc` | Draft |
 | [Analog Input / ADC](Analog-ADC.md) | `ADC.SchDoc`, `LPF.SchDoc` | Stub |
 | [Thermocouple Interface](Thermocouple.md) | `Max31856.SchDoc` | Stub |
 | [DTM13](DTM13.md) | `DTM13.SchDoc` | Stub |
@@ -34,7 +34,8 @@ page and from below.
 
 - [DDD-001 — ADC LPF: values + RC-before-active topology](decisions/DDD-001-adc-lpf.md) — Decided
 - [DDD-002 — Turbo-speed input conditioning](decisions/DDD-002-turbospeed-input.md) — Decided
-- [DDD-003 — DRV8874 VTG-actuator drive: endstop/stall detection via IPROPI](decisions/DDD-003-drv8874-vtg-actuator.md) — Decided
+- [DDD-003 — DRV8874 VTG-actuator drive: endstop/stall detection via IPROPI](decisions/DDD-003-drv8874-vtg-actuator.md) — Superseded by DDD-004
+- [DDD-004 — DRV8874 current limit: VREF via MCP4725 DAC, RIPROPI 1.2 kΩ, ITRIP above stall](decisions/DDD-004-drv8874-dac-vref-current-limit.md) — Decided
 
 ## Coordination
 
