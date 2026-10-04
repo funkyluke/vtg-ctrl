@@ -18,7 +18,7 @@ Landing page for design decisions and documentation for the **VTG-Ctrl** board
 | Page | Schematics | Status |
 |------|-----------|--------|
 | [MCU](MCU.md) | `MCU.SchDoc` | Stub |
-| [Power & Protection](Power-Protection.md) | `Input Protection.SchDoc`, `PSU_5V.SchDoc`, `EFuse_5V.SchDoc`, `EFuse_12V.SchDoc` | Stub |
+| [Power & Protection](Power-Protection.md) | `Input Protection.SchDoc`, `PSU_5V.SchDoc`, `EFuse_5V.SchDoc`, `EFuse_12V.SchDoc` | Draft |
 | [High-Side Switch](HSS.md) | `HSS.SchDoc` | Stub |
 | [Motor Driver](Motor-Driver.md) | `DRV8874.SchDoc` | Draft |
 | [Analog Input / ADC](Analog-ADC.md) | `ADC.SchDoc`, `LPF.SchDoc` | Stub |
@@ -36,6 +36,7 @@ page and from below.
 - [DDD-002 — Turbo-speed input conditioning](decisions/DDD-002-turbospeed-input.md) — Decided
 - [DDD-003 — DRV8874 VTG-actuator drive: endstop/stall detection via IPROPI](decisions/DDD-003-drv8874-vtg-actuator.md) — Superseded by DDD-004
 - [DDD-004 — DRV8874 current limit: VREF via MCP4725 DAC, RIPROPI 1.2 kΩ, ITRIP above stall](decisions/DDD-004-drv8874-dac-vref-current-limit.md) — Decided
+- [DDD-005 — 12 V supply protection concept (central input protection + DRV8874 VM)](decisions/DDD-005-12v-supply-protection.md) — Proposal
 
 ## Coordination
 

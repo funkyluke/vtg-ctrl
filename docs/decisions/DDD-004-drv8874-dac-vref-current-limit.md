@@ -127,7 +127,24 @@ rated stall time.
 | nFAULT pull-up | 10 kΩ to **3.3 V** (ESP32 not 5 V-tolerant) |
 | VCP–VM | 100 nF, 16 V, X7R |
 | CPH–CPL | 22 nF, **≥ 50 V**, X7R |
-| VM bypass | 0.1 µF **≥ 50 V** X7R + bulk (value TBD per DS §9.1, ≥ 50 V rating) |
+| VM bypass | 0.1 µF **≥ 50 V** X7R + 1–2.2 µF X7R ≥ 50 V + **100–220 µF bulk ≥ 50 V** (sizing in [DDD-005](DDD-005-12v-supply-protection.md)) |
+
+## Protections → see DDD-005
+
+> Superseded by [DDD-005](DDD-005-12v-supply-protection.md) (2026-10-04). An earlier
+> uncommitted draft of this section proposed a ~16 V-standoff TVS + series
+> reverse-battery diode **local to VM** and 10–47 µF bulk. That is replaced by:
+> - **Central** input protection (bidirectional load-dump TVS, VWM ≥ 20 V so it stays
+>   off during the 18 V / 60 min overvoltage test; reverse polarity via ideal diode).
+>   A 16 V standoff would conduct at 18 V. TIDUCK1 picks the standoff *above* the
+>   jump-start voltage, not below it.
+> - No local TVS on VM. Bulk **100–220 µF ≥ 50 V** + 1–2.2 µF + 0.1 µF (sizing in DDD-005).
+> - **No load-dump TVS on OUT1/OUT2** (agreed: not in TI's recommended components). A
+>   small ESD-class TVS on OUTx → GND (standoff ≥ VBAT_P max) is our own recommendation
+>   for ISO 10605 connector ESD, not a TI requirement.
+
+The PESD5V0S2BT (DDD-002) remains **5 V-logic-only**. It is the wrong voltage/power
+class for the 12 V motor domain.
 
 ## Open / verify
 
@@ -135,11 +152,7 @@ rated stall time.
   exceed 4 A → re-check that the breakaway level gives full torque.
 - Actuator worst-case running current → travel-limit value.
 - Max breakaway duration vs. driver thermal and actuator stall rating.
-- Bulk-cap value; VM clamp (load-dump energy enters on VM, not on OUT; must stay < 40 V
-  abs max). Output TVS only for ESD/harness transients; standoff vs. jump-start
-  requirement still open (carried over from DDD-003). ISO 16750-2 12 V load dump:
-  Test A unsuppressed 79–101 V / 0.5–4 Ω / 40–400 ms; Test B suppressed 35 V (DDD-003
-  conflated these).
+- Supply protection, bulk cap and output ESD → [DDD-005](DDD-005-12v-supply-protection.md).
 - **Harness:** `DRV8874.Harness` (`MotCtrl = PWM,DIR,nFAULT,nSLEEP`) lacks **IPROPI** and
   **SDA/SCL**. Must be updated in Altium (not changed by this doc).
 
@@ -151,9 +164,13 @@ rated stall time.
 
 ## References
 
-- DRV8874 datasheet SLVSF66A — Table 6 (IMODE), Eq. 3, §7.3.3, Rec. Op. Cond.
+- DRV8874 datasheet SLVSF66A — Table 6 (IMODE), Eq. 3, §7.3.3, Rec. Op. Cond., Table 1
+  (Recommended External Components), §9.1 Bulk Capacitance.
 - MCP4725 datasheet DS20002039 — §5.4 POR/EEPROM, VDD as reference.
 - TI SLVAFQ3 *Integrated Stall Detection for Brushed DC Motors*.
+- TI **TIDUCK1** *Automotive HVAC Multiple-Flap Actuator and Damper Motor Drivers*
+  (reference design) — TVS standoff above jump-start voltage, reverse-battery protection.
+- TI *Bulk capacitor sizing for DC motor drive applications* (Clark Kinnaird app note).
 
 ## Backlinks
 

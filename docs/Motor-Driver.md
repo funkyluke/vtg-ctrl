@@ -22,6 +22,7 @@ Drives the electric **VTG actuator** (brushed DC, bidirectional, ~3.7 A stall) w
 ## Key Decisions
 
 - [DDD-004 — Current limit: VREF from MCP4725, RIPROPI 1.2 kΩ, ITRIP above stall](decisions/DDD-004-drv8874-dac-vref-current-limit.md) — **Decided** (current)
+- [DDD-005 — 12 V supply protection (VM from central input protection, bulk cap, output ESD)](decisions/DDD-005-12v-supply-protection.md) — Proposal
 - [DDD-003 — Endstop/stall detection via IPROPI, ITRIP below stall](decisions/DDD-003-drv8874-vtg-actuator.md) — Superseded by DDD-004
 
 ## Key values (summary — details/calcs in DDD-004)
@@ -41,7 +42,9 @@ Drives the electric **VTG actuator** (brushed DC, bidirectional, ~3.7 A stall) w
 ## Open points
 
 - Stall-current measurement conditions, worst-case running current, max breakaway time.
-- Bulk-cap value and VM clamp; output TVS standoff vs. jump-start requirement.
+- VM supply/protection per [DDD-005](decisions/DDD-005-12v-supply-protection.md): VM from
+  `VBAT_P` (central protection, no local TVS), 0.1 µF + 1–2.2 µF + 100–220 µF (≥ 50 V).
+  Brake before sleep. Output ESD TVS part still to select.
 - Confirm no position sensor / ripple counting is needed.
 
 ## Files
@@ -53,3 +56,4 @@ Drives the electric **VTG actuator** (brushed DC, bidirectional, ~3.7 A stall) w
 
 - [Documentation Hub](Main.md)
 - [MCU](MCU.md)
+- [Power & Protection](Power-Protection.md)
